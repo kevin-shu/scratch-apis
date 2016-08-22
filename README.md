@@ -9,4 +9,5 @@
 ``POST https://projects.scratch.mit.edu/internalapi/project/118828855/set/?v=v448&_rnd=0.27443298837170005``
 
 ## Library:
+* Scratch.FlashAppView
 * `Scratch.FlashApp.ASobj.ASgetProject`
