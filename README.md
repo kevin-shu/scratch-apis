@@ -16,12 +16,12 @@
 ## Editor:
 透過 SWFobject.js 函式庫操控 SWF: `var ASobj = swfobject.getObjectById("scratch");`
 (以下用法可以在 project_base.js 中找到)
-* ASobj.ASdownload()
+* ASobj.ASdownload() - 下載到本機
 * ASobj.ASisEditMode()
 * ASobj.ASsetEditMode()
 * ASobj.ASwasEdited()
 * ASobj.ASsetTitle()
-* ASobj.ASloadProject()
+* ASobj.ASloadProject(this.model.get("creator"), this.model.id, this.model.get("title"), !this.model.get("isPublished"), !1)
 * ASobj.ASisEmpty()
 * ASobj.ASisUnchanged()
 * ASobj.ASshouldSave()
